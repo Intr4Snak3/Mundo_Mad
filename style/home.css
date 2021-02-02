@@ -4,6 +4,7 @@ html {
     background-image: url("../images/background.jpg");
     background-size: auto 120%;
     font-family: 'Roboto', sans-serif;
+    
 }
 /* estilo del encabezado */
 header {
@@ -37,6 +38,10 @@ a:hover{
 .nav-item {
     margin: 0 10px 0 10px;
 }
+
+.menu-responsive{
+    display: none;
+}
 /* estilo de las secciones o centro de la página */
 .bg-section {
     background-color: rgba(255, 255, 255, 0.6);
@@ -56,6 +61,7 @@ section {
 
 .p-section{
     padding: 0 33px 0 33px;
+    text-align: justify;
 }
 
 .container {
@@ -69,7 +75,7 @@ section {
 }
 
 .row h5{
-    margin: 1% 0 1% 0;
+    margin: 2% 0 1% 0;    
 }
 
 .img-trabajos{
@@ -84,6 +90,7 @@ section {
 
 .img-trabajos:hover{
     transform: scale(1.1);
+    cursor: pointer;
 }
 
 /* Estilo dirección y mapa */
@@ -148,4 +155,8 @@ footer {
 /* centrar texto */
 .text-center{
     text-align: center;
+}
+
+.scrolling-box{
+    
 }
