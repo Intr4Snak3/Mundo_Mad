@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Kotta+One&family=Lato:wght@100;300;400;700&family=Open+Sans&family=Roboto&display=swap');
+
+html {
+    background-image: url("../images/background.jpg");
+    background-size: auto 120%;
+    font-family: 'Roboto', sans-serif;
+}
+/* estilo del encabezado */
+header {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(255, 255, 255, 0.4);
+    /* margin-left: 10%;
+    margin-right: 10%; */
+    border-bottom: 1px solid #cecece;
+}
+
+header img{
+    margin-left: 10%;
+}
+
+/* estilo barra navegacion */
+nav{
+    align-self: center;
+    margin-right: 10%;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover{    
+    text-decoration: underline;
+}
+
+.nav-item {
+    margin: 0 10px 0 10px;
+}
+/* estilo de las secciones o centro de la página */
+.bg-section {
+    background-color: rgba(255, 255, 255, 0.6);
+    border: 1px solid #cecece;
+    margin-top: 1%;
+}
+
+section {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.title-section{
+    padding-top: 2%;
+    margin-left: 4%;
+}
+
+.p-section{
+    padding: 0 33px 0 33px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.row{
+    width: 25%;
+    text-align: center;
+}
+
+.row h5{
+    margin: 1% 0 1% 0;
+}
+
+.img-trabajos{
+    /* width: 220px;
+    height: 220px; */
+    width: 65%;
+    height: 75%;
+    border: 5px solid black;
+    margin: 0 0.5em 0 0.5em;
+    transition: 1s ease-in-out;
+}
+
+.img-trabajos:hover{
+    transform: scale(1.1);
+}
+
+/* Estilo dirección y mapa */
+.contacto{
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+.p-address{
+    letter-spacing: 0.3em;
+    margin-left: 10%;
+}
+
+.row-left {
+    align-self: auto;
+    width: 50%;
+    margin-right: 1%;
+    margin-left: 4%;
+    
+}
+
+.row-left > div{
+    background-color: rgba(255, 255, 255, 0.5);
+    padding: 1em 0 1em 0;
+    border: 1px solid #cecece;
+    
+}
+
+.row-left a{
+    padding: 5px;
+    margin: 2px;
+    border: 2px solid black;
+    border-radius: 20px;
+}
+
+.row-right{
+    align-self: auto;
+    width: 50%;
+    margin-right: 4%;
+}
+
+.map{
+    width: 100%;
+    padding: 1em 0 1em 0;
+}
+
+
+
+.fab{
+    font-size: larger;
+}
+
+/* estilo del pie de pagina */
+footer {
+    text-align: center;
+    padding: 2% 0 2% 0;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-top: 1px solid #cecece;
+    margin-top: 1%;
+}
+
+/* otros estilos */
+/* centrar texto */
+.text-center{
+    text-align: center;
+}
