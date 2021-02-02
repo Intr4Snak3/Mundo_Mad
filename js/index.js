@@ -18,3 +18,20 @@ $(function() {
   // Change the speed to whatever you want
   // Personally i think 1000 is too much
   // Try 800 or below, it seems not too much but it will make a difference
+
+  $(function() {
+    var menuVisible = false;
+    $('#menu-responsive').click(function() {
+      if (menuVisible) {
+        $('#menu-nav').css({'display':'none'});
+        menuVisible = false;
+        return;
+      }
+      $('#menu-nav').css({'display':'grid'});
+      menuVisible = true;
+    });
+    $('#menu-nav').click(function() {
+      $(this).css({'display':'none'});
+      menuVisible = false;
+    });
+  });

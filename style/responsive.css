@@ -58,8 +58,10 @@
 
 @media (max-width: 550px){
     header {
-        display: flex;
-        justify-content: space-around;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr;
+        justify-items: center;
         width: 100%;
     }
 
@@ -75,6 +77,20 @@
 
     .menu-nav{
         display: none;
+        width: 100%;
+        grid-column-start: 1;
+        grid-column-end: 3;
+        text-align: center;
+        border-top: 1px solid #cecece;
+    }
+
+    .menu-nav a{        
+        margin: 5px 0 5px 0;
+    }
+
+    .menu-nav a:hover{
+        background-color: rgba(206, 206, 206, 0.3);
+        text-decoration: none;
     }
 
     .container-trabajos {
